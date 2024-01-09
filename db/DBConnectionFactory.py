@@ -12,9 +12,9 @@ class DBConnectionFactory:
         try:
             connection = mysql.connector.connect(
                 host='localhost',
-                database='adithya',
-                user='root',
-                password='qwerty'
+                database='database_name',
+                user='user',
+                password='password'
             )
             print("Connected to MySQL database")
             return connection
